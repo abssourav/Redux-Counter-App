@@ -68,7 +68,7 @@ const counterReducer = (state=initialState, action) =>{
                 count: state.count + action.payload
             }
         default:
-            state
+            return state
     }
 }
 
